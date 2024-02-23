@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package = "spring.dto">
+    <class name = "Teacher" table = "TeacherDemo01">
+        <id name = "rollNo" column = "RollNo" />
+            <property name = "name" />
+            <property name = "className" />
+            <property name = "status" />
+    </class>
+</hibernate-mapping>
